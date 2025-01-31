@@ -39,12 +39,11 @@ if st.button('Predict'):
     prediction = predict(input_dict)
     output = print_proper_output(prediction)
     st.success(f'Predicted Condition of your car: {output}')
+    st.balloons()
 
 st.sidebar.title("App Information")
 st.sidebar.markdown("---")
 st.sidebar.info("A simple ML-powered car condition prediction app.")
-
-st.balloons()
 
 st.markdown(
     """
