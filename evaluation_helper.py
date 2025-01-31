@@ -1,7 +1,7 @@
 import pandas as pd
 import joblib
 
-model = joblib.load("E:/Projects/Car_Evaluation_Project/artifacts/model.joblib")
+model = joblib.load("artifacts/model.joblib")
 
 
 def preprocess_input(input_dict):
